@@ -1,0 +1,15 @@
+[package]
+name = "url_open"
+version = "0.0.1"
+authors = ["Marko Mijalkovic <marko.mijalkovic97@gmail.com>"]
+description = "Open URLs in the default browser"
+repository = "https://github.com/overdrivenpotato/open-url"
+readme = "README.md"
+keywords = ["url", "web", "browser"]
+license = "MIT"
+
+[dependencies]
+url = "*"
+
+[dependencies.winapi]
+git = "https://github.com/overdrivenpotato/winapi-rs"
