@@ -4,9 +4,6 @@ A simple crate to open URLs in the default web browser.
 ### Usage
 
 ```rust
-extern crate url;
-extern crate url_open;
-
 use url::Url;
 use url_open::UrlOpen;
 
