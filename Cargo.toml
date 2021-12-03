@@ -9,7 +9,6 @@ keywords = ["url", "web", "browser"]
 license = "MIT"
 
 [dependencies]
-url = "*"
+url = "2.2.2"
+winapi = "0.3.9"
 
-[dependencies.winapi]
-git = "https://github.com/overdrivenpotato/winapi-rs"
